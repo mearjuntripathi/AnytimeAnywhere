@@ -1,0 +1,39 @@
+Machine Vision Research Scientist Intern May 2021 - Jul 2021
+TCS Research and Innovation Labs Bengaluru, India
+• Pioneered advanced research in tree segmentation by leveraging airborne and spaceborne LiDAR
+technology, driving a notable increase in segmentation accuracy and advancing precision in geospatial analysis
+for forestry applications.
+• Engineered an innovative tree segmentation model utilising a hybrid machine learning and signal
+processing framework, achieving an 18% boost in model accuracy, thereby setting a new benchmark for
+high-precision environmental monitoring systems.
+• Implemented cutting-edge data fusion techniques, seamlessly integrating geospatial point cloud data
+with hyperspectral imagery to significantly enhance classification models, leading to more refined and actionable environmental insights.
+EDUCATION
+Masters in Computer Science and Engineering 2020 - 2022
+Indian Institute of Technology Gandhinagar (IIT GN)
+Awarded Director’s Silver Medal for Academic Excellence (9.0/10 CGPA)
+Bachelors in Computer Science and Engineering 2016 - 2020
+Government Engineering College Thrissur
+Dean’s List for Academic Excellence (9.11/10 CGPA)
+SELECTED PROJECTS AND PUBLICATIONS
+• Accelerated Implicit Neural Representations: Engineered an advanced encoder-decoder multiscale
+block partitioning network architecture to represent N-dimensional signals via implicit neural representations. Achieved significant improvements in training and inference speeds, surpassing state-of-the-art
+models by 25% in computational efficiency. This research tackles complex signal representation challenges,
+optimising memory usage and scalability for high-dimensional data. [Pre-print]
+• Semantic-Enhanced Image Captioning System with Siamese-GCN: Designed an innovative image
+captioning system using Siamese Graph Convolutional Networks (S-GCN) integrated with a nonparametric Kernel Activation Function (KAF) and an LSTM-attention mechanism. The system enhanced semantic understanding of image data, enabling more accurate and context-aware captions. The
+work was recognised and published at the 9th ACM IKDD CODS and 27th COMAD Conference,
+contributing new insights into the field of image-to-text transformation. [Publication]
+• Neural Language Model for Reverse Dictionary: Developed a novel neural language model to
+predict target words based on informal descriptions using a combination of CBOW model, attention
+word embedding, and a POS tagging channel. The model efficiently captured sub-word information,
+yielding more accurate predictions. This work was presented at the 8th ACM IKDD CODS and 26th
+COMAD Conference, showcasing advancements in natural language understanding and word prediction
+mechanisms. [Publication]
+CERTIFICATIONS
+• Oracle Cloud Infrastructure Architect Associate - Oracle
+• Essential Cloud Infrastructure: Core Services - Google
+AWARDS AND ACHIEVEMENTS
+• Awarded Director’s Silver Medal for outstanding academic performance, IIT Gandhinagar
+• ICPC 2018 Regional Finalist
+• Runner-up in All-Kerala Innovative Idea Grant Competiti

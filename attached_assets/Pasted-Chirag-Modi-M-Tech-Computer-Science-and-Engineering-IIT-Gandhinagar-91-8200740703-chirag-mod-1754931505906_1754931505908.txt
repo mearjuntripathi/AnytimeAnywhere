@@ -1,0 +1,56 @@
+Chirag Modi
+M.Tech Computer Science and Engineering, IIT Gandhinagar
+ +91 8200740703 # chirag.modi@iitgn.ac.in ï linkedin.com/in/chirag-modi-4b5960150 § github.com/modi2207
+ chiragmodi.netlify.app Ð leetcode.com/u/chiragmodi2207
+Education
+IIT Gandhinagar Gandhinagar, Gujarat
+Master Of Technology in Computer Science and Engineering CGPA:9.12, July. 2023 – July 2025
+The Maharaja Sayajirao University Of Baroda Vadodara, Gujarat
+Bachelor Of Engineering in Computer Science and Engineering Percentage: 74.5, July. 2017 – July 2021
+Relevant Coursework
+• Data Structures and Algorithms
+• Parallel and Distributed Systems
+• Natural Language Processing
+• Machine Learning
+• Computer Network
+• Computer Architecture
+• Operating System
+• DBMS
+• Computer and Network Security
+Experience
+Kapidhwaj AI May 2024 – July 2024
+Software Engineer - Intern | Streming,Google Cloud, WebRTC,FFmpeg Research Park IIT GN, Gujarat
+• I am currently interning at a startup founded by an alumnus of IIT Hyderabad, specializing in crime detection using an
+ML-based model with high accuracy and low latency. My role involves developing a scalable, low-latency streaming
+solution in the cloud for IP camera feeds, ensuring efficient delivery to end users.
+WiseDV India July 2021 – July 2023
+Software Engineer - Full time | MEAN Stack, WebRTC,AWS,Electron Vadodara, Gujarat
+• Developed features for Bozu’s desktop application, including closed captions, meeting recordings, desktop notifications,
+and a crash reporter. Also contributed to UI enhancements and Angular component development for the web app.
+• Optimized server code of bozu and devised auto-scaling policies for AWS infrastructure
+• Orchestrated deployment of scaled servers leveraging AWS services, including CloudWatch, Autoscaling Group, RDS,
+and Elastic Load Balancer
+• Developed a real-time logging system with NodeJS backend, Angular frontend, MongoDB, and server-sent events.
+• Implemented Webdriver.io automation script to simulate virtual peer insertion in meetings for server load testing
+Projects
+Instant Payment Gateway | Distributed Systems,Go lang,GRPC,ELK Stack,Mysql,Nginx,Docker | Code § April 2024
+• Designed and implemented a high-performance, fault-tolerant payment gateway mimicking UPI functionality, capable of
+handling thousands of concurrent requests.
+• Implemented a load-balancing strategy using Nginx and containerized all servers and microservices (Nginx, MySQL,
+Elasticsearch) using Docker for streamlined deployment and management.
+VOIP Call Application | Angular, ELK Stack, WebRTC, Ejabberd XMPP| Code § May 2023
+• Designed and implemented a peer-to-peer video call application utilizing WEBRTC technology and XMPP signaling
+server.
+• Integrated Elasticsearch to enable optimized searching of usernames from large user databases.
+Technical Skills
+Languages: C, Python, Java, JavaScript, Go Lang
+Developer Tools: AWS,Git and GitHub ,Docker,Wireshark
+Technologies/Frameworks: MEAN Stack,WebRTC,Electron,OpenMP,MPI,Pytorch,Numpy,Pandas
+Databases:MySql, MongoDB, Elastic Search
+Achievements
+• Appointed as a ”Sanchar Mitra” under the sanchar mitra scheme of DoT(Department of Telecommunication) for
+creation of awareness of the various departments citizen centric services
+• Cleared BARC OCES/DGFS exam for scientific officer at BARC and have been selected for interview.
+• Secured AIR 543 in Gate 2023 among 80k candidates.
+• Having a 6-star badge in problem-solving on the hacker rank platform and solved more than 350 problems on leetcode
+• Secured 5th rank in Baroda in 12th science GSEB

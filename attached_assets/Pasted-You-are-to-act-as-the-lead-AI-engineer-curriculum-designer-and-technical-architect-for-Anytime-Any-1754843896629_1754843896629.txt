@@ -1,0 +1,154 @@
+You are to act as the lead AI engineer, curriculum designer, and technical architect for Anytime Anywhere AI (AAAI) — an end-to-end AI, ML, DL, GenAI, Agentic AI, and Quantum AI solutions provider.
+
+Your task is to create, document, and implement a full-stack, multi-domain AI/ML/Quantum project and training curriculum, integrating all relevant modern technologies, frameworks, and methodologies.
+
+Company Name: Anytime Anywhere AI (AAAI)
+Company Vision: Build intelligent systems deployable anytime, anywhere — from cloud to edge, classical to quantum — enabling individuals and enterprises to harness AI for any task, in any environment.
+
+Technology Stack for Projects
+All AI-related and system-level tools must be included and demonstrated in projects:
+
+AI/ML/DL Frameworks: PyTorch, TensorFlow, JAX, Hugging Face, Diffusers
+
+Agentic AI & Retrieval: LangChain, LangGraph, RAG, CAG, Vector Databases (FAISS, Pinecone, Weaviate), GraphDB, MongoDB
+
+Automation & Orchestration: N8N, Apache Airflow, Prefect
+
+DevOps/MLOps: Docker, Kubernetes, Git, GitHub/GitLab, CI/CD pipelines, MLflow, Weights & Biases, DVC
+
+Data Engineering: NumPy, Pandas, Polars, SQL (MySQL, PostgreSQL, SQLite, DuckDB), Scraping (Playwright, Selenium, BeautifulSoup), FFmpeg, Apache & Nginx
+
+Browsers & Compilers: Chromium, Firefox, GCC, LLVM
+
+Cloud & Deployment: AWS, GCP, Google Colab, SageMaker, Triton, vLLM, TGI, Ollama
+
+Specialized AI: Finetuning, PEFT (LoRA, QLoRA), Transfer Learning, Transformers, GANs, VAEs
+
+Quantum AI: Qiskit, PennyLane, Cirq, TensorFlow Quantum
+
+Curriculum Roadmap
+You will create learning + project tracks for each domain below:
+
+1. Foundation Course
+
+Linux & Git for Data Science (Linux Essentials, Docker Basics, Git & GitHub/GitLab)
+
+Python Foundations (OOP, control flow, Python 3.12 features)
+
+Data Handling (NumPy, Pandas, Polars, SQL, MongoDB, DuckDB)
+
+Experiment Tracking (MLflow, Weights & Biases)
+
+Mathematics & Statistics (Linear Algebra, Calculus, Probability, JAX)
+
+Cloud & MLOps (AWS/GCP basics, Prefect/Airflow, CI/CD, Docker)
+
+2. Machine Learning Course
+
+Intro to ML & Intelligent Systems (Supervised, Unsupervised, RAG, Agentic AI)
+
+End-to-End ML Project (EDA, preprocessing, feature engineering, deployment)
+
+Training, Validation, Performance Metrics (Regression, Classification, Overfitting/Bias)
+
+Classification Techniques (SVM, Decision Trees, Transformers for classification, XAI)
+
+Core Algorithms, Ensembles, and Deployment (XGBoost, LightGBM, Flask/FastAPI, ONNX)
+
+3. Deep Learning Course
+
+Foundations of DNNs (Perceptron, ReLU, MLP, Backpropagation)
+
+Optimization & Regularization (Adam, BatchNorm, Dropout)
+
+CNNs & RNNs (ResNet, LSTM, GRU)
+
+Advanced Architectures (Transformers, Vision Transformers, GANs, VAEs)
+
+Deployment & XAI (Grad-CAM, TorchScript, ethics)
+
+4. Generative AI Course
+
+Generative Models (GANs, VAEs, Transformers, Diffusion)
+
+Transfer Learning & Finetuning
+
+Sequence Models for GenAI (RNN, LSTM, Transformers)
+
+Attention Mechanisms
+
+Deployment of GenAI pipelines
+
+5. Large Language Models (LLM) Course
+
+Foundations (tokenization, embeddings, GPT/BERT)
+
+Architectures & Training (Transformer anatomy, scaling laws)
+
+Alignment, Prompting, RAG (LangChain, LlamaIndex)
+
+Fine-tuning & Deployment (LoRA, QLoRA, vLLM, TGI)
+
+Specialized LLM Applications (BioGPT, CodeLLaMA, Agentic AI)
+
+6. Multimodal AI Course
+
+Multimodal Learning Foundations (text, image, video, audio fusion)
+
+Architectures (CLIP, BLIP, ViLBERT)
+
+Vision-Language Models (VQA, captioning)
+
+Multimodal Generation (DALL·E, Stable Diffusion, Whisper)
+
+Evaluation & Ethics
+
+7. Quantum AI Course
+
+Quantum Computing Basics (qubits, gates, circuits, decoherence)
+
+Classical LLM limitations & quantum motivation
+
+Quantum Machine Learning (VQC, quantum embeddings)
+
+Quantum LLMs (Q-Transformers, quantum attention)
+
+Applications & Future Trends (Quantum AGI)
+
+Output Requirements in Replit
+Generate project templates for each module in Python, using the above tools.
+
+Include documentation in Markdown explaining theory + implementation.
+
+Create hands-on code labs with datasets and exercises for learners.
+
+Include deployment scripts (Dockerfiles, Kubernetes configs, CI/CD YAMLs).
+
+Include example notebooks demonstrating each technology in context.
+
+Add quantum + classical hybrid projects where relevant.
+
+Your Role in Replit
+Act as system designer + instructor
+
+Provide clear, production-grade code
+
+Include comments and explanations for all learners’ levels
+
+Ensure modularity so code can be reused for multiple AI project types
+
+Simulate real-world projects for each course section (e.g., fraud detection ML, image generation GenAI, multimodal retrieval, quantum text classification)
+
+Now, start by structuring the AAAI Master AI Curriculum as a directory in Replit with the following:
+
+/curriculum/ — all module outlines in Markdown
+
+/projects/ — end-to-end implementations per course
+
+/deploy/ — Docker/K8s/CI-CD scripts
+
+/datasets/ — sample datasets or loaders
+
+/quantum/ — quantum AI code and notebooks
+
+/docs/ — API references, tool setup guides

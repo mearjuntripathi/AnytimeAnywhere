@@ -1,0 +1,37 @@
+AAAI COACHING WEBSITE - INSTANT DEPLOY TO VERCEL
+
+🚀 EVERYTHING IS READY! Just follow these 3 simple steps:
+
+STEP 1: GET DATABASE (2 minutes)
+- Go to neon.tech
+- Sign up free
+- Create project
+- Copy connection string
+
+STEP 2: DEPLOY TO VERCEL (2 minutes)  
+- Upload this code to GitHub
+- Go to vercel.com
+- Import from GitHub
+- Add environment variables:
+  DATABASE_URL=your_neon_connection_string
+  NODE_ENV=production
+  VITE_API_URL=https://your-app.vercel.app
+
+STEP 3: INITIALIZE (30 seconds)
+- Run: npm run db:push
+
+DONE! Your website is live with:
+✅ All 7 AI courses with pricing
+✅ Registration system
+✅ WhatsApp integration  
+✅ Professional design
+✅ Mobile responsive
+✅ SSL certificate
+
+Files included:
+- vercel.json (deployment config)
+- api/[...slug].ts (serverless handler)
+- Complete website code
+- All deployment guides
+
+Your AI coaching business is ready to go live!

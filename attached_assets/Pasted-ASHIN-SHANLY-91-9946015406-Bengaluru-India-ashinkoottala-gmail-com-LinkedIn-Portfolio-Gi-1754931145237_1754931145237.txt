@@ -1,0 +1,39 @@
+ASHIN SHANLY
++91-9946015406 ⋄ Bengaluru, India
+ashinkoottala@gmail.com ⋄ LinkedIn ⋄ Portfolio ⋄ Github
+PROFESSIONAL SUMMARY
+Software Engineer with a Master’s in Technology (Computer Science & Engineering) and three years of industry
+experience, designing and delivering scalable, high-performance systems. Proficient in leveraging cloud platforms
+such as OCI and GCP and harnessing advanced machine learning and data engineering techniques to build robust,
+innovative solutions. Adept at translating complex technical challenges into reliable, secure, and user-centric
+applications that drive measurable business impact.
+TECHNICAL SKILLS
+• Programming Languages and Frameworks: Python, C/C++, SQL, Java, JavaScript, Django, React
+• Cloud Technologies: Oracle Cloud Infrastructure (OCI), Google Cloud Platform (GCP)
+• Big Data Technologies: Apache Spark, Delta Lake, Hadoop
+• Machine Learning Frameworks: TensorFlow, PyTorch, Keras
+• DevOps: Docker, Kubernetes, Terraform
+• Tools: Android Studio, XAMPP
+PROFESSIONAL EXPERIENCE
+Member of Technical Staff (SDE-2) 2022 - Present
+Oracle India (Oracle Cloud Infrastructure) Bengaluru, India
+• Architected petabyte-scale ETL pipelines using PySpark on OCI to reduce data processing latency and
+cost, delivering high-throughput real-time ingestion, transformation, and aggregation of global customer usage
+data; developed a fault-tolerant, distributed framework that processes billions of records daily and enables
+dynamic, actionable reporting.
+• Designed and implemented an enterprise-wide Generative AI RAG chatbot, leveraging a vector database
+for high-speed document retrieval and fine-tuned LLMs for accurate, context-driven query responses. Automated 60% of manual query handling, enhanced query resolution accuracy by 30%, and significantly elevated
+cross-departmental operational efficiency.
+• Led a team of 5 developers in redesigning data load processes by migrating from a legacy relational data
+warehouse to the Delta Lake ecosystem, leveraging robust ACID compliance, dynamic schema evolution,
+and time travel to ensure superior data integrity and auditability. Optimized storage with file compaction
+and partitioning, reducing I/O overhead and boosting query performance by 40%, while seamlessly
+integrating with Spark-based ETL workflows for real-time analytics and cost-efficient data management.
+• Created an instance and rack decommissioning dashboard that accelerated throughput for decommissioning bare-metal and virtual machine instances. Enhanced multi-dimensional visibility (rack, host,
+and instance levels), optimising data center resource allocation and saving thousands of dollars annually by
+improving operational efficiency and reducing idle resource costs.
+• Led the design and implementation of robust data archival and purging frameworks, automating the
+identification of cold and inactive data. Migrated historical data to cost-effective, long-term storage while
+purging obsolete records in compliance with retention policies. Achieved a 25% reduction in long-term
+storage costs and enhanced overall database performance by optimising active data sets. Collaborated with
+cross-functional teams to streamline data governance and ensure audit readiness.

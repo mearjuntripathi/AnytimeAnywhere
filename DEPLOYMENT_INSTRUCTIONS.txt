@@ -1,0 +1,88 @@
+====================================================================
+          AAAI COACHING WEBSITE - HOSTINGER DEPLOYMENT GUIDE
+====================================================================
+
+🎉 Your AAAI Coaching website is ready for deployment!
+
+📁 DOWNLOAD YOUR WEBSITE:
+   The file "aaai-coaching-website.zip" contains your complete website.
+
+🚀 STEP-BY-STEP DEPLOYMENT TO HOSTINGER:
+
+1. DOWNLOAD FILES:
+   - Download "aaai-coaching-website.zip" from this project
+   - Extract the ZIP file on your computer
+
+2. ACCESS HOSTINGER:
+   - Log into your Hostinger account
+   - Go to hosting management
+   - Click "File Manager" for your domain
+
+3. UPLOAD TO YOUR WEBSITE:
+   - Navigate to "public_html" folder
+   - DELETE all existing files in public_html
+   - UPLOAD all extracted files from the ZIP to public_html
+   - Ensure you have: index.html, assets folder, .htaccess
+
+4. VERIFY STRUCTURE:
+   Your public_html should look like:
+   ├── index.html
+   ├── assets/
+   │   ├── index-[hash].css
+   │   ├── index-[hash].js
+   │   └── [other files]
+   └── .htaccess
+
+✅ WEBSITE FEATURES INCLUDED:
+- Modern coaching website design
+- Course pricing: ₹25,000, ₹35,000, ₹45,000
+- Live chat widget (bottom right corner)
+- Call button for immediate contact
+- Team member profiles (IIT experts)
+- Benefits section highlighting:
+  * Certificate from foreign university
+  * IIT internship opportunities
+  * Placement assistance
+  * Educational visits to IITs
+  * Industry exposure
+  * Expert faculty
+  * Support for Nepali/Bhutani students
+
+🔧 IMPORTANT NOTES:
+- The .htaccess file handles page routing - don't delete it!
+- Chat widget is visual only - connect to real chat service later
+- All phone numbers and contact details can be customized
+- Website is fully responsive for mobile devices
+
+🆘 TROUBLESHOOTING:
+- If pages show 404 errors: Check .htaccess file is uploaded
+- If styling breaks: Verify all files in assets/ folder uploaded
+- For support: Contact Hostinger customer service
+
+🎯 NEXT STEPS AFTER DEPLOYMENT:
+1. Test website on your domain
+2. Update phone numbers in chat widget
+3. Connect real payment processing
+4. Set up Google Analytics
+5. Configure contact forms
+6. Add email marketing integration
+
+Your professional AI coaching website is ready to attract students!
+
+====================================================================
+                    DEPLOYMENT COMPLETE CHECKLIST
+====================================================================
+□ Downloaded aaai-coaching-website.zip
+□ Extracted files on computer
+□ Logged into Hostinger File Manager
+□ Cleared public_html directory
+□ Uploaded all website files
+□ Verified file structure
+□ Tested website on domain
+□ Chat widget appears
+□ All pages load correctly
+□ Mobile version works
+□ Ready to accept students!
+
+For technical support or customizations, contact your developer.
+====================================================================
