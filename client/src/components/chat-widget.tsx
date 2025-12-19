@@ -12,14 +12,34 @@ export default function ChatWidget() {
         <div className="flex flex-col gap-2">
           {/* WhatsApp Button */}
           <Button
-            onClick={() => window.open('https://wa.me/918839519103?text=Hi! I would like to know more about AAAI coaching programs.', '_blank')}
-            className="bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 shadow-lg hover:shadow-xl transition-all duration-300 animate-bounce-subtle hover:scale-110 group relative"
-            title="WhatsApp: +91 883 951 9103"
+            onClick={() => {
+              const message = encodeURIComponent('Hi! I would like to know more about AAAI coaching programs.');
+              const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+              const whatsappUrl = isMobile 
+                ? `whatsapp://send?phone=918839519103&text=${message}`
+                : `https://web.whatsapp.com/send?phone=918839519103&text=${message}`;
+              window.open(whatsappUrl, '_blank');
+            }}
+            className="bg-green-500 hover:bg-green-600 active:bg-green-700 text-white rounded-full w-16 h-16 md:w-14 md:h-14 shadow-lg hover:shadow-2xl active:shadow-md transition-all duration-300 hover:scale-110 active:scale-95 group relative"
+            title="Chat on WhatsApp: +91 883 951 9103"
+            aria-label="Contact us on WhatsApp"
           >
-            <MessageCircle className="h-6 w-6 group-hover:rotate-12 transition-transform duration-300" />
-            <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full px-1 animate-pulse">
+            {/* Icon with improved animation */}
+            <MessageCircle className="h-7 w-7 md:h-6 md:w-6 group-hover:rotate-12 group-hover:scale-110 transition-all duration-300" />
+            
+            {/* Enhanced badge */}
+            <div className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-semibold rounded-full px-1.5 py-0.5 shadow-md animate-pulse min-w-[32px] text-center">
               New
             </div>
+            
+            {/* Ripple effect on click */}
+            <span className="absolute inset-0 rounded-full bg-white opacity-0 group-active:opacity-30 transition-opacity duration-150"></span>
+            
+            {/* Tooltip for desktop */}
+            <span className="hidden md:group-hover:block absolute bottom-full right-0 mb-3 px-3 py-2 bg-gray-900 text-white text-sm rounded-lg whitespace-nowrap shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+              Chat with us now! 💬
+              <span className="absolute top-full right-4 -mt-1 border-4 border-transparent border-t-gray-900"></span>
+            </span>
           </Button>
 
           {/* Live Chat Button */}
