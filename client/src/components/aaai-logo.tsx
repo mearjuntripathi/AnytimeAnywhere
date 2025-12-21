@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../image/android-chrome-512x512.png'
 
 interface LogoProps {
   size?: number;
@@ -11,103 +12,12 @@ export function AAI_Logo({ size = 40, className = "", showText = true }: LogoPro
     <div className={`flex items-center space-x-3 ${className}`}>
       {/* Logo Icon */}
       <div className="relative">
-        <svg 
-          width={size} 
-          height={size} 
-          viewBox="0 0 60 60" 
-          className="drop-shadow-lg"
-        >
-          {/* Gradient Definitions */}
-          <defs>
-            <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#3B82F6" />
-              <stop offset="50%" stopColor="#8B5CF6" />
-              <stop offset="100%" stopColor="#06B6D4" />
-            </linearGradient>
-            <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#10B981" />
-              <stop offset="100%" stopColor="#3B82F6" />
-            </linearGradient>
-            <filter id="glow">
-              <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-              <feMerge> 
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
-              </feMerge>
-            </filter>
-          </defs>
-          
-          {/* Background Circle */}
-          <circle 
-            cx="30" 
-            cy="30" 
-            r="28" 
-            fill="url(#brainGradient)" 
-            filter="url(#glow)"
-            className="animate-pulse"
-          />
-          
-          {/* Neural Network Nodes */}
-          <g fill="white" opacity="0.9">
-            {/* Top Layer */}
-            <circle cx="20" cy="15" r="2.5" />
-            <circle cx="30" cy="12" r="2.5" />
-            <circle cx="40" cy="15" r="2.5" />
-            
-            {/* Middle Layer */}
-            <circle cx="15" cy="25" r="2.5" />
-            <circle cx="30" cy="25" r="3" />
-            <circle cx="45" cy="25" r="2.5" />
-            
-            {/* Bottom Layer */}
-            <circle cx="18" cy="38" r="2.5" />
-            <circle cx="30" cy="40" r="2.5" />
-            <circle cx="42" cy="38" r="2.5" />
-          </g>
-          
-          {/* Neural Network Connections */}
-          <g stroke="white" strokeWidth="1.5" opacity="0.7" fill="none">
-            {/* Top to Middle */}
-            <line x1="20" y1="15" x2="15" y2="25" />
-            <line x1="20" y1="15" x2="30" y2="25" />
-            <line x1="30" y1="12" x2="15" y2="25" />
-            <line x1="30" y1="12" x2="30" y2="25" />
-            <line x1="30" y1="12" x2="45" y2="25" />
-            <line x1="40" y1="15" x2="30" y2="25" />
-            <line x1="40" y1="15" x2="45" y2="25" />
-            
-            {/* Middle to Bottom */}
-            <line x1="15" y1="25" x2="18" y2="38" />
-            <line x1="15" y1="25" x2="30" y2="40" />
-            <line x1="30" y1="25" x2="18" y2="38" />
-            <line x1="30" y1="25" x2="30" y2="40" />
-            <line x1="30" y1="25" x2="42" y2="38" />
-            <line x1="45" y1="25" x2="30" y2="40" />
-            <line x1="45" y1="25" x2="42" y2="38" />
-          </g>
-          
-          {/* Central AI Symbol */}
-          <g fill="white" opacity="0.9">
-            <text 
-              x="30" 
-              y="32" 
-              fontSize="8" 
-              fontWeight="bold" 
-              textAnchor="middle" 
-              fontFamily="Arial, sans-serif"
-            >
-              AI
-            </text>
-          </g>
-          
-          {/* Orbiting Particles */}
-          <g fill="url(#circuitGradient)" opacity="0.8">
-            <circle cx="12" cy="12" r="1.5" className="animate-spin-slow" />
-            <circle cx="48" cy="12" r="1.5" className="animate-spin-slow" />
-            <circle cx="12" cy="48" r="1.5" className="animate-spin-slow" />
-            <circle cx="48" cy="48" r="1.5" className="animate-spin-slow" />
-          </g>
-        </svg>
+        <img
+  src={logo}
+  style={{ width: size, height: size }}
+  className="object-contain"
+  alt="logo"
+/>
         
         {/* Floating Animation Particles */}
         <div className="absolute inset-0 pointer-events-none">
@@ -121,10 +31,10 @@ export function AAI_Logo({ size = 40, className = "", showText = true }: LogoPro
       {showText && (
         <div className="flex flex-col">
           <h1 className="text-xl font-bold text-gray-900 dark:text-white leading-tight">
-            AAAI
+            RTPR
           </h1>
           <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight">
-            Anytime Anywhere AI
+            AI PathShala
           </p>
         </div>
       )}

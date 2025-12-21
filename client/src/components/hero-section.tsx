@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            AAAI - Master AI with IIT Experts
+            RTPR AI PathShala
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
             Expert AI/ML career support with IIT alumni and top professionals from Google, Jio, IISc Bangalore, and leading research institutes.
